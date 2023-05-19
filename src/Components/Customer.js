@@ -12,8 +12,8 @@ function Customer(){
    
     </div>
     <div className='flex flex-row flex-wrap justify-center gap-4'>
-      <div>
-        <div data-aos="zoom-in" data-aos-duration="1500" className=''>
+      <div data-aos="zoom-in" data-aos-duration="1500" >
+        <div className=''>
       <svg className='mb-3 rounded-lg' height="50px" width="50px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
 	 viewBox="0 0 235.517 235.517" xmlSpace="preserve">
 <g>
@@ -34,7 +34,7 @@ function Customer(){
 <p className='text-gray-600 '>We provide money back guarantee if the <br/> products are not original</p>
         </div> 
           <div>
-        <div data-aos="zoom-in" data-aos-duration="1500" className=''>
+        <div data-aos="zoom-in" data-aos-duration="1500"  className=''>
         <svg className='mb-3 rounded-lg' fill="#000000" height="50px" width="50px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
 	 viewBox="0 0 485 485" xmlSpace="preserve">
 <g>
@@ -57,8 +57,8 @@ function Customer(){
 
 <div/>
             </div> 
-            <div>
-            <div data-aos="zoom-in" data-aos-duration="1500" className=''>
+            <div data-aos="zoom-in" data-aos-duration="1500" >
+            <div className=''>
             <svg className='mb-3 rounded-lg' fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
 	 width="50px" height="50px" viewBox="0 0 612 612" xmlSpace="preserve">
 <g>
@@ -86,8 +86,8 @@ function Customer(){
      
 
                 </div> 
-                <div>
-             <div data-aos="zoom-in" data-aos-duration="1500" className=''>
+                <div data-aos="zoom-in" data-aos-duration="1500" >
+             <div className=''>
                 <svg className='mb-3 rounded-lg' fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
 	 width="50px" height="50px" viewBox="0 0 902.86 902.86"
 	 xmlSpace="preserve">
