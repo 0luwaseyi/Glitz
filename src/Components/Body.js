@@ -9,13 +9,13 @@ function Body(){
     useEffect(()=>{
         AOS.init();
         AOS.refresh();
-    })
+    },[])
 
     return(
         <div>
             <div className='flex-none sm:flex flex-row gap-0 '>
                 
-            <div data-aos="zoom-in" data-aos-duration="1500" className='mt-0 sm:flex-auto pt-5 mt-20 mr-0'>
+            <div className='mt-0 sm:flex-auto pt-5 mt-20 mr-0'>
                 <div className='sm:ml-60 text-center flex flex-row'>
             <div className='text-center ml-16 text-gray-400 sm:text-gray-400 text-center font-bold'>Absolutely hot collections!
             </div>

@@ -6,6 +6,9 @@ import Body from "./Components/Body";
 import Background from './Components/Background';
 import Cards from './Components/Cards';
 import Customer from './Components/Customer'
+import Discount from './Components/Discount';
+import Newsletter from './Components/Newsletter';
+import Footer from './Components/Footer'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -24,10 +27,19 @@ function App() {
 <div className='mb-4'>
 <Cards/>
 </div>
-    <div className='mt-6'>
+    <div className='mt-6 mb-7'>
     <Customer/>
     </div>
-   
+    <div className='mt-5'>
+    <Discount/>
+    </div>
+  <div className='mt-5'>
+    <Newsletter/>
+  </div>
+
+  <div className='mt-5'>
+    <Footer/>
+  </div>
      
     </div>
   );

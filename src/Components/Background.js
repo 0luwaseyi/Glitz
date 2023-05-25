@@ -25,7 +25,7 @@ function Background(){
 
               <div class="ma-5 sm:flex flex-wrap mb-4 items-center justify-center">
     <div class="flex border-2 rounded">
-        <input type="text" class="px-4 py-2 w-80" placeholder="Search..."/>
+        <input type="text" className="px-4 py-2 w-80 bg-gray-100" placeholder="Search..."/>
         <button class="flex items-center flex-wrap justify-center bg-black text-white px-3 border-l">
            Explore
         </button>
