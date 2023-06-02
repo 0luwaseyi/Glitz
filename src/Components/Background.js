@@ -10,7 +10,7 @@ function Background(){
     useEffect(()=>{
         AOS.init();
         AOS.refresh();
-    })
+    },[])
 
 
     return(

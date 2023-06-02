@@ -1,6 +1,4 @@
 
-
-
 import 'tachyons'
 import AOS from "aos"
 import "aos/dist/aos.css"
@@ -22,7 +20,7 @@ function Cards(){
             <h2 className="text-center ml-3 sm:ml-20">Top Deals</h2>
         </div>
         <div className="flex flex-row flex-wrap gap-5 mt-5 justify-center items-center">
-            <div data-aos="zoom-in" data-aos-duration="1500" className="">
+            <div data-aos="zoom-in-right" data-aos-duration="1500" className="">
             <img className="w-full rounded-lg mb-3 grow" src={process.env.PUBLIC_URL + '/shoe.jpg'} alt='shoe'/>
             <h4>Nike Sneakers</h4>
             <p>Quality, durable sneakers with <br/> everlasting sole lorem ipsum</p>
@@ -45,7 +43,7 @@ function Cards(){
             </div> 
            
             </div>
-            <div data-aos="zoom-in" data-aos-duration="1500" className="">
+            <div data-aos="zoom-in" data-aos-duration="2000" className="">
             <img className="w-full rounded-lg mb-3 grow" src={process.env.PUBLIC_URL + '/shirt.jpg'} alt='shoe'/>
             <h4>Polo shirt</h4>
             <p>Quality, durable sneakers with <br/> everlasting sole lorem ipsum</p>
@@ -70,7 +68,7 @@ function Cards(){
                </div>
                 </div> 
             </div>
-            <div data-aos="zoom-in" data-aos-duration="1500" className="">
+            <div data-aos="zoom-in" data-aos-duration="2000" className="">
             <img className="w-full rounded-lg mb-3 grow" src={process.env.PUBLIC_URL + '/trousers.jpg'} alt='shoe'/>
             <h4>Trousers</h4>
             <p>Quality, durable sneakers with <br/> everlasting sole lorem ipsum</p>
@@ -96,7 +94,7 @@ function Cards(){
                 
                 </div> 
             </div>
-            <div data-aos="zoom-in" data-aos-duration="1500" className="">
+            <div data-aos="zoom-in-right" data-aos-duration="1500" className="">
             <img className="w-full rounded-lg mb-3 grow" src={process.env.PUBLIC_URL + '/watch.jpg'} alt='shoe'/>
             <h4>Watch</h4>
             <p>Quality, durable sneakers with <br/> everlasting sole lorem ipsum</p>

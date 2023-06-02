@@ -8,7 +8,7 @@ function Footer(){
         AOS.refresh();
     },[])
     return(
-        <div data-aos="zoom-in" data-aos-duration="800" className='bg-gradient-to-r from-purple-900 to-pink-700 text-white text-center flex flex-row flex-wrap'>
+        <div className='bg-gradient-to-r from-purple-900 to-pink-700 text-white text-center flex flex-row flex-wrap'>
 
         
         <div className='block justify-left sm:flex flex-row flex-wrap py-10 px-10 gap-x-10 bg-gradient-to-r from-purple-900 to-pink-700 text-white'>

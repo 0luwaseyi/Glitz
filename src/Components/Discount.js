@@ -9,7 +9,7 @@ function Discount(){
         AOS.refresh();
     },[])
     return(
-        <div data-aos="zoom-in" data-aos-duration="1500" className="flex flex-row flex-wrap gap-x-5 justify-center">
+        <div data-aos="zoom-in-left" data-aos-duration="2000" className="flex flex-row flex-wrap gap-x-5 justify-center">
             <div className="ml-5 mr-5">
             <img className="w-full object-contain" src={process.env.PUBLIC_URL + '/Discount.jpg'} alt='background'/>
             </div>
@@ -25,5 +25,6 @@ function Discount(){
         </div>
     )
 }
+
 
 export default Discount;
