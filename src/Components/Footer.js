@@ -8,10 +8,10 @@ function Footer(){
         AOS.refresh();
     },[])
     return(
-        <div className='bg-gradient-to-r from-purple-900 to-pink-700 text-white text-center flex flex-row flex-wrap'>
+        <div className='bg-gradient-to-r from-purple-900 to-pink-700 text-white text-center mx-auto'>
 
         
-        <div className='block justify-left sm:flex flex-row flex-wrap py-10 px-10 gap-x-10 bg-gradient-to-r from-purple-900 to-pink-700 text-white'>
+        <div className=' sm:flex flex-row flex-wrap py-10'>
             <div className='mb-4'>
             <h4>
             Glitz$Glamz
@@ -19,7 +19,7 @@ function Footer(){
            <h6>Specializes in providing high quality, stylish<br/> products for your wardrobe</h6>
             </div>
 
-            <div className='text-left  sm:pl-10 flex flex-row flex-wrap text-white gap-x-10 justify-center'>
+            <div className='text-left pl-5'>
               <div>
                 <h6>SHOP</h6>
                 <p>All collections</p>

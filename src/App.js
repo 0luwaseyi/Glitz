@@ -4,7 +4,6 @@ import Navbar from "./Components/Navbar";
 import { Component } from 'react';
 import Body from "./Components/Body";
 import Background from './Components/Background';
-import Cards from './Components/Cards';
 import Customer from './Components/Customer'
 import Discount from './Components/Discount';
 import Newsletter from './Components/Newsletter';
@@ -21,11 +20,11 @@ function App() {
       <Body/>
     
 
-      <div className='mt-5 ml-5 mb-4'>
+      <div className='my-5 mx-5'>
       <Background/>
       </div>
 <div className='mb-4'>
-<Cards/>
+
 </div>
     <div className='mt-6 mb-7'>
     <Customer/>

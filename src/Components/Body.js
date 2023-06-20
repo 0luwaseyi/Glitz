@@ -13,21 +13,22 @@ function Body(){
 
     return(
         <div>
-            <div className='flex-none sm:flex flex-row gap-0 '>
+            <div className='ml-2 sm:flex flex-row align-items space-x-20 justify-center 2xl:space-x-20 '>
                 
-            <div className='mt-0 sm:flex-auto pt-5 mt-20 mr-0'>
-                <div className='sm:ml-60 text-center flex flex-row'>
-            <div className='text-center ml-16 text-gray-400 sm:text-gray-400 text-center font-bold'>Absolutely hot collections!
+            <div className='mt-5 sm:w-80'>
+                <div className='mx-auto flex flex-row justify-center'>
+            <div className='text-gray-400 font-bold '>Absolutely hot collections!
             </div>
-            <svg height='20' width='20' enable-background="new 0 0 128 128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><radialGradient id="a" cx="68.8839" cy="124.2963" gradientTransform="matrix(-1 -.00434301 -.00712592 1.6408 131.9857 -79.3452)" gradientUnits="userSpaceOnUse" r="70.587"><stop offset=".3144" stop-color="#ff9800"/><stop offset=".6616" stop-color="#ff6d00"/><stop offset=".9715" stop-color="#f44336"/></radialGradient><radialGradient id="b" cx="64.9211" cy="54.0621" gradientTransform="matrix(-.0101 .9999 .7525 .00760378 26.1538 -11.2668)" gradientUnits="userSpaceOnUse" r="73.8599"><stop offset=".2141" stop-color="#fff176"/><stop offset=".3275" stop-color="#fff27d"/><stop offset=".4868" stop-color="#fff48f"/><stop offset=".6722" stop-color="#fff7ad"/><stop offset=".7931" stop-color="#fff9c4"/><stop offset=".8221" stop-color="#fff8bd" stop-opacity=".804"/><stop offset=".8627" stop-color="#fff6ab" stop-opacity=".529"/><stop offset=".9101" stop-color="#fff38d" stop-opacity=".2088"/><stop offset=".9409" stop-color="#fff176" stop-opacity="0"/></radialGradient><path d="m35.56 40.73c-.57 6.08-.97 16.84 2.62 21.42 0 0-1.69-11.82 13.46-26.65 6.1-5.97 7.51-14.09 5.38-20.18-1.21-3.45-3.42-6.3-5.34-8.29-1.12-1.17-.26-3.1 1.37-3.03 9.86.44 25.84 3.18 32.63 20.22 2.98 7.48 3.2 15.21 1.78 23.07-.9 5.02-4.1 16.18 3.2 17.55 5.21.98 7.73-3.16 8.86-6.14.47-1.24 2.1-1.55 2.98-.56 8.8 10.01 9.55 21.8 7.73 31.95-3.52 19.62-23.39 33.9-43.13 33.9-24.66 0-44.29-14.11-49.38-39.65-2.05-10.31-1.01-30.71 14.89-45.11 1.18-1.08 3.11-.12 2.95 1.5z" fill="url(#a)"/><path d="m76.11 77.42c-9.09-11.7-5.02-25.05-2.79-30.37.3-.7-.5-1.36-1.13-.93-3.91 2.66-11.92 8.92-15.65 17.73-5.05 11.91-4.69 17.74-1.7 24.86 1.8 4.29-.29 5.2-1.34 5.36-1.02.16-1.96-.52-2.71-1.23-2.15-2.05-3.7-4.72-4.44-7.6-.16-.62-.97-.79-1.34-.28-2.8 3.87-4.25 10.08-4.32 14.47-.22 13.57 10.99 24.57 24.55 24.57 17.09 0 29.54-18.9 19.72-34.7-2.85-4.6-5.53-7.61-8.85-11.88z" fill="url(#b)"/></svg>
+           <div><svg height='20' width='20' enable-background="new 0 0 128 128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink"><radialGradient id="a" cx="68.8839" cy="124.2963" gradientTransform="matrix(-1 -.00434301 -.00712592 1.6408 131.9857 -79.3452)" gradientUnits="userSpaceOnUse" r="70.587"><stop offset=".3144" stop-color="#ff9800"/><stop offset=".6616" stop-color="#ff6d00"/><stop offset=".9715" stop-color="#f44336"/></radialGradient><radialGradient id="b" cx="64.9211" cy="54.0621" gradientTransform="matrix(-.0101 .9999 .7525 .00760378 26.1538 -11.2668)" gradientUnits="userSpaceOnUse" r="73.8599"><stop offset=".2141" stop-color="#fff176"/><stop offset=".3275" stop-color="#fff27d"/><stop offset=".4868" stop-color="#fff48f"/><stop offset=".6722" stop-color="#fff7ad"/><stop offset=".7931" stop-color="#fff9c4"/><stop offset=".8221" stop-color="#fff8bd" stop-opacity=".804"/><stop offset=".8627" stop-color="#fff6ab" stop-opacity=".529"/><stop offset=".9101" stop-color="#fff38d" stop-opacity=".2088"/><stop offset=".9409" stop-color="#fff176" stop-opacity="0"/></radialGradient><path d="m35.56 40.73c-.57 6.08-.97 16.84 2.62 21.42 0 0-1.69-11.82 13.46-26.65 6.1-5.97 7.51-14.09 5.38-20.18-1.21-3.45-3.42-6.3-5.34-8.29-1.12-1.17-.26-3.1 1.37-3.03 9.86.44 25.84 3.18 32.63 20.22 2.98 7.48 3.2 15.21 1.78 23.07-.9 5.02-4.1 16.18 3.2 17.55 5.21.98 7.73-3.16 8.86-6.14.47-1.24 2.1-1.55 2.98-.56 8.8 10.01 9.55 21.8 7.73 31.95-3.52 19.62-23.39 33.9-43.13 33.9-24.66 0-44.29-14.11-49.38-39.65-2.05-10.31-1.01-30.71 14.89-45.11 1.18-1.08 3.11-.12 2.95 1.5z" fill="url(#a)"/><path d="m76.11 77.42c-9.09-11.7-5.02-25.05-2.79-30.37.3-.7-.5-1.36-1.13-.93-3.91 2.66-11.92 8.92-15.65 17.73-5.05 11.91-4.69 17.74-1.7 24.86 1.8 4.29-.29 5.2-1.34 5.36-1.02.16-1.96-.52-2.71-1.23-2.15-2.05-3.7-4.72-4.44-7.6-.16-.62-.97-.79-1.34-.28-2.8 3.87-4.25 10.08-4.32 14.47-.22 13.57 10.99 24.57 24.55 24.57 17.09 0 29.54-18.9 19.72-34.7-2.85-4.6-5.53-7.61-8.85-11.88z" fill="url(#b)"/></svg>
              </div>
-            <h1 className="display:block mt-0 pt-0 text-center sm:text-center text-4xl font-bold">Get The Best<br/> Accessories
-        And Fashionable <h1 className='text-purple-400 text-4xl font-bold'>Wears</h1></h1>
-        <h5 className='ml-5 display:block sm:text-center text-sm'>Shop with a store that can give you quality wears<br/>
+             </div>
+            <h1 className="text-center mx-auto sm:text-center text-3xl font-bold">Get The Best<br/> Accessories
+        And Fashionable <span className='text-purple-400 text-3xl font-bold'>Wears</span></h1>
+        <h5 className='ml-5 text-center sm:text-center text-sm'>Shop with a store that can give you quality wears<br/>
         and accessories at the most affordable prices.<br/>
         Click below to see some of our amazing wears!</h5>
 
-        <div className='flex flex-col items-center justify-center'>
+        <div className='mx-auto flex flex-col items-center justify-center'>
 
         <button type="button"
         
@@ -43,14 +44,14 @@ function Body(){
                 </svg>
                 </button>
                 </div>
-                <div className='flex flex-row ml-20 mt-4'>
-            <div className='sm:text-2xl ml-10'>
+                <div className='mx-auto flex flex-row justify-center mt-4'>
+            <div className='text-center text-2xl'>
                <h5 className='text-2xl font-bold'>20K+</h5>
                 <p className='text-left'><em>Collections</em></p>
             </div>
             
            
-            <div className='sm:text-2xl ml-10'>
+            <div className='text-2xl ml-10'>
                 <h5 className='text-2xl font-bold'>16K</h5>
                 <p className=''><em>Users</em></p>
             </div>
@@ -82,11 +83,11 @@ function Body(){
             </div>
             
 
-            <div data-aos="zoom-in" data-aos-duration="1500" className='aspect-w-16 aspect-h-9 pt-12 sm:pr-60'>
+            <div className='aspect-w-16 aspect-h-9 pt-12 sm:aspect-w-20 aspect-h-9 md:shrink-0'>
                 <div></div>
-                <img className="w-full object-contain" src={process.env.PUBLIC_URL + '/background3.png'} alt='background'/>
+                <img className="w-full object-contain sm: shrink-0 object-contain" src={process.env.PUBLIC_URL + '/background3.png'} alt='background'/>
 
-               <div className='flex flex-row gap-1 rounded-full justify-center'>
+               <div className='mx-auto flex flex-row gap-1 rounded-full  text-center justify-center'>
                <div><h5>Get</h5></div>
                 <div><svg fill="#000000" height="30px" width="30px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
 	 viewBox="0 0 511.999 511.999" xmlSpace="preserve">

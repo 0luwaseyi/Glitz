@@ -11,10 +11,10 @@ function Customer(){
     
    
     </div>
-    <div className='flex flex-row flex-wrap justify-center gap-4'>
+    <div className='text-center justify-center gap-4'>
       <div data-aos="zoom-in" data-aos-duration="1500" >
         <div className=''>
-      <svg className='mb-3 rounded-lg' height="50px" width="50px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
+      <svg className='mb-3 justify-content inline-flex items-center rounded-lg' height="50px" width="50px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
 	 viewBox="0 0 235.517 235.517" xmlSpace="preserve">
 <g>
 	<path  d="M118.1,235.517c7.898,0,14.31-6.032,14.31-13.483c0-7.441,0-13.473,0-13.473
@@ -35,7 +35,7 @@ function Customer(){
         </div> 
           <div>
         <div data-aos="zoom-in" data-aos-duration="1500"  className=''>
-        <svg className='mb-3 rounded-lg' fill="#000000" height="50px" width="50px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
+        <svg className='mb-3 inline-flex items-center rounded-lg' fill="#000000" height="50px" width="50px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
 	 viewBox="0 0 485 485" xmlSpace="preserve">
 <g>
 	<path d="M413.974,71.026C368.171,25.225,307.274,0,242.5,0S116.829,25.225,71.026,71.026C25.225,116.829,0,177.726,0,242.5
@@ -59,7 +59,7 @@ function Customer(){
             </div> 
             <div data-aos="zoom-in" data-aos-duration="1500" >
             <div className=''>
-            <svg className='mb-3 rounded-lg' fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
+            <svg className='mb-3 inline-flex items-center rounded-lg' fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
 	 width="50px" height="50px" viewBox="0 0 612 612" xmlSpace="preserve">
 <g>
 	<g>
@@ -88,7 +88,7 @@ function Customer(){
                 </div> 
                 <div data-aos="zoom-in" data-aos-duration="1500" >
              <div className=''>
-                <svg className='mb-3 rounded-lg' fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
+                <svg className='mb-3 inline-flex items-center rounded-lg' fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
 	 width="50px" height="50px" viewBox="0 0 902.86 902.86"
 	 xmlSpace="preserve">
 <g>
