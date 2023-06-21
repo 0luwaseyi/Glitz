@@ -4,6 +4,7 @@ import "aos/dist/aos.css"
 
 
 
+
 function Body(){
 
     useEffect(()=>{
@@ -13,7 +14,8 @@ function Body(){
 
     return(
         <div>
-            <div className='ml-2 sm:flex flex-row align-items space-x-20 justify-center 2xl:space-x-20 '>
+            <div className='ml-2 space-x-0
+             sm:flex flex-row align-items  justify-center 2xl:space-x-20 '>
                 
             <div className='mt-5 sm:w-80'>
                 <div className='mx-auto flex flex-row justify-center'>
