@@ -3,7 +3,7 @@ import React from 'react';
 function Customer(){
     return(
 <div className=''>
-    <div data-aos="zoom-in" data-aos-duration="1500" className='flex flex-wrap gap-5'>
+    <div data-aos="zoom-in" data-aos-duration="1500" className='flex flex-wrap gap-5 sm: flex flex-col'>
         <div>
         <h5 className='text-darkblue-800 font-bold text-3xl ml-12 mt-10 mb-5'>We provide the<br/> best customer experience</h5>
         </div>
@@ -11,11 +11,14 @@ function Customer(){
     
    
     </div>
-    <div className='text-center justify-center gap-4'>
+    <div className='text-center justify-center gap-4 sm:flex flex-row md:flex flex-row'>
       <div data-aos="zoom-in" data-aos-duration="1500" >
         <div className=''>
       <svg className='mb-3 justify-content inline-flex items-center rounded-lg' height="50px" width="50px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
 	 viewBox="0 0 235.517 235.517" xmlSpace="preserve">
+
+
+		
 <g>
 	<path  d="M118.1,235.517c7.898,0,14.31-6.032,14.31-13.483c0-7.441,0-13.473,0-13.473
 		c39.069-3.579,64.932-24.215,64.932-57.785v-0.549c0-34.119-22.012-49.8-65.758-59.977V58.334c6.298,1.539,12.82,3.72,19.194,6.549
@@ -31,7 +34,7 @@ function Customer(){
 </div>
 
 <h6 className='font-bold'>Original products</h6>
-<p className='text-gray-600 '>We provide money back guarantee if the <br/> products are not original</p>
+<p className='text-gray-600'>We provide money back guarantee if the <br/> products are not original</p>
         </div> 
           <div>
         <div data-aos="zoom-in" data-aos-duration="1500"  className=''>
@@ -107,6 +110,7 @@ function Customer(){
 </svg>
 </div>
 <h6 className='font-bold'>Fast and Free shipping</h6>
+
 <p className='text-gray-600'>We offer fast and free shipping for our <br/> loyal customers</p> 
 </div>
     </div>

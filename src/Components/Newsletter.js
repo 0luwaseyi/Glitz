@@ -10,11 +10,11 @@ function Newsletter(){
     },[])
     return(
         <div data-aos="zoom-in" data-aos-duration="1500">
-            <h1 className='font-bold sm:font-bold text-4xl text-center'>
+            <h1 className='font-bold text-2xl sm:font-bold text-center'>
                 Subscribe to our Newsletter to get updates <br/> to our latest collections
             </h1>
 
-        <h6 className='text-center text-gray-600 font-bold mx-auto mb-4'>Get 20% off on your first order just by subscribing to our newsletter</h6>
+        <h6 className='text-center text-gray-600 font-bold mx-3 mb-4'>Get 20% off on your first order just by subscribing to our newsletter</h6>
         <div class="ma-5 sm:flex flex-wrap mb-4 items-center justify-center">
     <div class="flex ml-3 mr-3 border-2 rounded">
         <input type="text" className="px-4 py-2 w-80 bg-gray-200 font-bold" placeholder="Enter your mail"/>

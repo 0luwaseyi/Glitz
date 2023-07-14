@@ -9,7 +9,7 @@ import Cards from "./Cards"
 
 function Background(){
 
-    const [page, setPage] = useState(false)
+    const [page, setPage] = useState(true)
 
     useEffect(()=>{
         AOS.init();
@@ -17,9 +17,7 @@ function Background(){
     },[])
 
 
-    const Component = [
-        <Cards/> , <Popular/>
-    ]
+    
 
     
 
@@ -68,7 +66,12 @@ function Background(){
  
   </div>
 
+  <div className="mt-5">
   {page? <Cards/> : <Popular/>}
+
+  </div>
+
+ 
 
         </div>
     )

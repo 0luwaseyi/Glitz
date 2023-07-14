@@ -11,7 +11,7 @@ function Footer(){
         <div className='bg-gradient-to-r from-purple-900 to-pink-700 text-white text-center mx-auto'>
 
         
-        <div className=' sm:flex flex-row flex-wrap py-10'>
+        <div className=' sm:flex flex-row flex-wrap py-10 ml-10 md:flex flex-row xl:flex flex-row space-x-5'>
             <div className='mb-4'>
             <h4>
             Glitz$Glamz
@@ -19,7 +19,7 @@ function Footer(){
            <h6>Specializes in providing high quality, stylish<br/> products for your wardrobe</h6>
             </div>
 
-            <div className='text-left pl-5'>
+            <div className='text-left pl-5 sm:flex flex-row mx-auto md:flex flex-row mx-auto xl:flex flex-row space-x-10'>
               <div>
                 <h6>SHOP</h6>
                 <p>All collections</p>
