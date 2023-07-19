@@ -3,11 +3,11 @@ import './App.css';
 import Navbar from "./Components/Navbar";
 import { Component } from 'react';
 import Body from "./Components/Body";
-import Background from './Components/Background';
 import Customer from './Components/Customer'
 import Discount from './Components/Discount';
 import Newsletter from './Components/Newsletter';
 import Footer from './Components/Footer'
+import Shop from "./Components/Shop"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -21,7 +21,7 @@ function App() {
     
 
       <div className='my-5 mx-5'>
-      <Background/>
+      <Shop/>
       </div>
 <div className='mb-4'>
 

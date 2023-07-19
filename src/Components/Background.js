@@ -1,15 +1,14 @@
 
 import AOS from "aos"
 import "aos/dist/aos.css"
-import React, {useEffect, useState} from 'react'
-import Popular from "./Popular";
-import Cards from "./Cards"
+import React, {useEffect} from 'react'
 
 
 
-function Background(){
 
-    const [page, setPage] = useState(true)
+function Background(props){
+
+   
 
     useEffect(()=>{
         AOS.init();
@@ -44,30 +43,29 @@ function Background(){
 
  <div className='flex flex-wrap items-center justify-center gap-9'>
   <div>
-  <div class="px-8 pt-1 pb-1 rounded-md bg-gray-300 hover:bg-purple-700 hover:text-white border-none cursor-pointer">
-    <button onClick = {()=> setPage(!page)}>Everything</button></div>
+  <div class="px-8 pt-2 pb-2 rounded-md bg-gray-300 hover:bg-purple-700 hover:text-white border-none cursor-pointer">
+    <button onClick = {props.onClick}>Everything</button></div>
   </div>
  <div >
- <div class="px-5 pt-1 pb-1 rounded-md bg-gray-300 hover:bg-purple-700 hover:text-white border-none cursor-pointer">
+ <div class="px-5 pt-2 pb-2 rounded-md bg-gray-300 hover:bg-purple-700 hover:text-white border-none cursor-pointer">
     <button>Popular</button></div>
   </div>
   <div>
-  <div class="px-5 pt-1 pb-1 rounded-md bg-gray-300 hover:bg-purple-700 hover:text-white border-none cursor-pointer"><button>Hot</button></div>
+  <div class="px-5 pt-2 pb-2 rounded-md bg-gray-300 hover:bg-purple-700 hover:text-white border-none cursor-pointer"><button>Hot</button></div>
   </div>
  
  <div>
- <div class="px-5 pt-1 pb-1 rounded-md bg-gray-300 hover:bg-purple-700 hover:text-white border-none cursor-pointer"><button>Recents</button></div>
+ <div class="px-5 pt-2 pb-2 rounded-md bg-gray-300 hover:bg-purple-700 hover:text-white border-none cursor-pointer"><button>Recents</button></div>
  </div>
 
  <div>
- <div class="px-5 pt-1 pb-1 rounded-md bg-gray-300 hover:bg-purple-700 hover:text-white border-none cursor-pointer"><button>Products</button></div>
+ <div class="px-5 pt-2 pb-2 rounded-md bg-gray-300 hover:bg-purple-700 hover:text-white border-none cursor-pointer"><button>Products</button></div>
  </div>
  
  
   </div>
 
   <div className="mt-5">
-  {page? <Cards/> : <Popular/>}
 
   </div>
 

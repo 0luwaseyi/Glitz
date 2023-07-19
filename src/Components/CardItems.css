@@ -1,0 +1,19 @@
+.button-color{
+    border: 2px solid;
+    background-color: #fff;
+    color: purple;
+    width: 50%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-top: 2vw;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+    border-radius: 1.2em;
+}
+
+.button-color:hover{
+    background-image: linear-gradient(to left, #743ad5, #d53a9d);
+    color: #fff;
+}
+
+

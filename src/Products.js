@@ -9,7 +9,7 @@ export const PRODUCTS = [
     {
         id: 1,
         productName: "Sneakers",
-        price: "12,000",
+        price: 12000.00,
         productImage: product1,
         description: "Quality durable sneakers with everlasting sole lorem ipsum"
     },
@@ -17,23 +17,23 @@ export const PRODUCTS = [
     {
         id: 2,
         productName: "Polo shirt",
-        price: "4,000" ,
+        price: 4000.00,
         productImage: product2,
         description: "Quality durable sneakers with everlasting sole lorem ipsum"
     },
 
     {
         id: 3,
-        productname: "Trousers",
-        price: "5,000" ,
+        productName: "Trousers",
+        price: 5000.00,
         productImage: product3,
         description: "Quality durable sneakers with everlasting sole lorem ipsum"
     },
 
     {
         id: 4,
-        productname: "Watch",
-        price: "23,500" ,
+        productName: "Watch",
+        price: 23500.00,
         productImage: product4,
         description: "Quality durable sneakers with everlasting sole lorem ipsum"
     }

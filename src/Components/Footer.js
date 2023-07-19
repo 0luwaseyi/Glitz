@@ -21,7 +21,7 @@ function Footer(){
 
             <div className='text-left pl-5 sm:flex flex-row mx-auto md:flex flex-row mx-auto xl:flex flex-row space-x-10'>
               <div>
-                <h6>SHOP</h6>
+                <a href=''><h6>SHOP</h6></a>
                 <p>All collections</p>
                 <p>Winter Edition</p>
                 <p>Discount</p>
