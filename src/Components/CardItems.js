@@ -14,6 +14,7 @@ function CardItems(props){
 
     return(
         <div key={id} className="grow mx-auto">
+             <div data-aos="zoom-in-right" data-aos-duration="1500" className="">
             <Link to ="/purchase"> <img className="rounded-tl-2xl rounded-br-2xl mb-3 mt-5 justify-center items-center inline-flex" src={ productImage }/></Link>
             <h5><b>{productName}</b></h5>
                 <p className="text-gray-700"><em>{description}</em></p>
@@ -27,7 +28,7 @@ function CardItems(props){
             
 
 
-
+            </div>
 
         </div>
     )
