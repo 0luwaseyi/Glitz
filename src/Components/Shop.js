@@ -12,9 +12,9 @@ function Shop(){
 
     return(
         <div>
-
             <Background onClick={()=>setPage(!page)}/>
-            {page? <Cards/> : <Popular/>}
+            {page? <Cards/> : null}
+            
         </div>
     )
 }

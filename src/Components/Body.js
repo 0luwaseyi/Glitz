@@ -29,7 +29,7 @@ function Body(){
              </div>
             <h1 className="text-center mx-auto sm:text-center text-3xl font-bold xl:mx-10 text-4xl">Get The Best<br/> Accessories
         And Fashionable <span className='text-purple-400 text-3xl font-bold'>Wears</span></h1>
-        <h5 className='ml-5 text-center sm:text-center text-sm'>Shop with a store that can give you quality wears<br/>
+        <h5 className=' text-center sm:text-center text-sm'>Shop with a store that can give you quality wears<br/>
         and accessories at the most affordable prices.<br/>
         Click below to see some of our amazing wears!</h5>
 

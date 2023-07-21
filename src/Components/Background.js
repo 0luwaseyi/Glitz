@@ -48,7 +48,7 @@ function Background(props){
   </div>
  <div >
  <div class="px-5 pt-2 pb-2 rounded-md bg-gray-300 hover:bg-purple-700 hover:text-white border-none cursor-pointer">
-    <button>Popular</button></div>
+    <button onClick={props.onClick}>Popular</button></div>
   </div>
   <div>
   <div class="px-5 pt-2 pb-2 rounded-md bg-gray-300 hover:bg-purple-700 hover:text-white border-none cursor-pointer"><button>Hot</button></div>
