@@ -14,9 +14,6 @@ function Cards(){
     })
 
 
-    
-
-
 
     return(
         <div>
@@ -25,7 +22,7 @@ function Cards(){
         </div>
         <div data-aos="zoom-in-right" data-aos-duration="1500" className="">
         
-        <div className="text-center justify-center gap-4 my-5 sm:flex flex-row justify-content mt-5 space-x-5 xl:flex flex-row justify-center items-center">
+        <div className="text-center justify-center gap-4 mb-5 sm:flex flex-row justify-content mt-5 space-x-5 xl:flex flex-row justify-center items-center">
            
                 
                     {PRODUCTS.map((product)=>(
